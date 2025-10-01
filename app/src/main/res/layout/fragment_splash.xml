@@ -3,11 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:background="@color/Police_blue"
+    android:background="@color/Police_blue"
     tools:context=".ui.Splash">
 
     <Button
-        android:layout_width="match_parent"
+        android:id="@+id/btnEmpezar"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
-        />
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/sh_bg_btn_gunmetal"
+        android:text="@string/empezar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 </FrameLayout>

@@ -41,5 +41,7 @@ public class Splash extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         context = getContext();
         navController = Navigation.findNavController(view);
+
+        binding.btnEmpezar.setOnClickListener(view1 -> navController.navigate(R.id.navigation_login));
     }
 }
