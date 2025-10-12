@@ -16,4 +16,15 @@
     <string name="password">Password</string>
     <string name="forgot_password">Forgot password?</string>
     <string name="login">Login</string>
+    <string name="email_address">Email Address</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="or_login_with">Or login with</string>
+    <string name="content_description">Content description</string>
+    <string name="or_register_with">Or register with</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register_now">Register now</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login_now">Login now</string>
+    <string name="let_s_get_you_registered">Let\'s get you registered!</string>
 </resources>
